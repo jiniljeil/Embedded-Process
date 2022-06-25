@@ -15,8 +15,8 @@ Master에서 기준 클럭인 SCL을 생성하고, 이 클럭에 맞춰서 데�
 
 SDA와 SCL 풀업저항에 의해 기본 High로 SCA신호가 Low로 떨어질때가 시작신호라고 판단한다. 그 후에 SCL선으로 클럭 신호가 만들어지는데, 파란 부분처럼 클럭 신호가 Low 일때가 SDA신호를 비트 신호로 바꾸는 시간이고, 초록색 부분처럼 클럭 신호가 High 일때 SDA 신호을 읽는다. 한클럭당 한 비트 데이터 신호를 만들며, 모든 비트의 전송이 끝난 후 SCL 신호가 High가 되면 SDA신호 역시 High로 되어 정지신호를 만든다. 시작 신호 뒤에 나오는 첫 7비트는 슬레이브의 주소값이며 8번째 비트는 데이터를 읽어올지 또는 쓸지를 나타내는 신호 비트 이다.
 
-<img src="img/start_stop.png" width="500px"> 
-<img src="img/data_transfer.png" width="500px"> 
+<img src="img/start_stop.png"> 
+<img src="img/data_transfer.png"> 
 
 #### References
 https://www.nxp.com/docs/en/user-guide/UM10204.pdf
