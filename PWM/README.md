@@ -2,7 +2,7 @@
 
 PWM 이란 Pulse Width Modulation의 약자로 말그대로 Pulse의 Width 길이를 가지고 값을 받는 형식이다. 이는 PDM(Pulse-Duration Module)이라고도 불린다. 전압값을 넘는 신호가 특정 주기(Duty Cycle)동안 얼마나 많은 비율을 차지하는가에 따라 값이 바뀌는 방식이다. 
 
-<div align="center" style="width: 300px">
+<div align="center" style="width: 200px">
     <img src="img/dute_cycle.png">
 </div>
 
