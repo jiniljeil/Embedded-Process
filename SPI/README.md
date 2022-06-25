@@ -15,8 +15,8 @@ SPI Interface SPI Bus를 사용하는 모든 Micro-controller를 지원하도록
 
 Clock polarity (CPOL)과 clock phase (CPHA)가 Clock의 active edge를 결정한다. Master는 CPOL 값을 보고 동작을 결정하게 된다. CPOL 값이 0인 경우, 초기 신호 값이 Low이고, CPOL 값이 1인 경우, 초기 신호 값이 High이다. CPHA 값은 Clock이 default 상태에 있다가 언제 데이터를 읽을지 결정한다. CPHA 값이 0인 경우, 처음 Rising edge 또는 Falling edge가 발생할 때 데이터를 읽는 것이고, CPHA 값이 1인 경우, 두 번째 Rising edge 또는 Falling edge가 발생할 때 데이터를 읽는 것이다. 단, 데이터를 읽을 때, MSB를 먼저 읽게 된다. (보통 Mode (1, 4), Mode (2, 3) Pair로 지원하는 경우가 많다.)
 
-<div align="center" style="width: 200px">
-    <img src="img/mode.png">    
-    <img src="img/mode_signal.png">     
-    <strong>Rising & Falling Mode depending on CPOL & CPHA</strong>
-</div>
+
+<img src="img/mode.png" width="500px">    
+<img src="img/mode_signal.png" width="500px">     
+<strong>Rising & Falling Mode depending on CPOL & CPHA</strong>
+
